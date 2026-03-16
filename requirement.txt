@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+streamlit
+google-generativeai
+plotly
+python-dotenv
+fpdf2
+kaleido
+python-multipart

@@ -1,0 +1,7 @@
+body{
+    background-color: hotpink;
+    
+    td{
+        border: 5px solid beige;
+    }
+} 

@@ -1,0 +1,118 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: 
+        linear-gradient(120deg, rgba(224,234,252,0.85) 0%, rgba(207,222,243,0.85) 100%),
+        url('ai.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(90deg, #333 60%, #4e54c8 100%);
+    color: #fff;
+    padding: 32px 0 24px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: transparent; /* Remove white background */
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: none; /* Remove box shadow */
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4e54c8;
+    box-shadow: 0 2px 8px rgba(78,84,200,0.15);
+    display: block;
+    margin-bottom: 18px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #4e54c8;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.projects a {
+    color: #4e54c8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.projects a:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+.projects strong {
+    color: #222;
+}
+
+footer {
+    text-align: center;
+    padding: 24px 0;
+    background: linear-gradient(90deg, #333 60%, #4e54c8 100%);
+    color: #fff;
+    margin-top: 48px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 0 0 16px 16px;
+}
+
+a {
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #222;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 16px 8px;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-size:
